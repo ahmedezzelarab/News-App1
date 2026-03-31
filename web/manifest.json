@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "toku",
     "short_name": "toku",
+=======
+    "name": "news_app_project",
+    "short_name": "news_app_project",
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

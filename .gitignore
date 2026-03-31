@@ -8,6 +8,10 @@
 .buildlog/
 .history
 .svn/
+<<<<<<< HEAD
+=======
+migrate_working_dir/
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 
 # IntelliJ related
 *.iml
@@ -26,14 +30,20 @@
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+<<<<<<< HEAD
 .packages
+=======
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 .pub-cache/
 .pub/
 /build/
 
+<<<<<<< HEAD
 # Web related
 lib/generated_plugin_registrant.dart
 
+=======
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 # Symbolication related
 app.*.symbols
 

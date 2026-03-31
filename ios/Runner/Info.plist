@@ -4,6 +4,11 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+<<<<<<< HEAD
+=======
+	<key>CFBundleDisplayName</key>
+	<string>News App Project</string>
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -11,7 +16,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>toku</string>
+=======
+	<string>news_app_project</string>
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -39,7 +48,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+<<<<<<< HEAD
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+=======
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
 </dict>
 </plist>

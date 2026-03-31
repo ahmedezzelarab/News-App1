@@ -23,6 +23,7 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<<<<<<< HEAD
   <meta name="apple-mobile-web-app-title" content="toku">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
@@ -96,6 +97,39 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+=======
+  <meta name="apple-mobile-web-app-title" content="news_app_project">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>news_app_project</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+>>>>>>> 3966a5bc4ab34229d31671ba5be485ded9a25b3f
   </script>
 </body>
 </html>
